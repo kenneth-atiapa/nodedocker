@@ -1,0 +1,26 @@
+{
+  "name": "nodedocker",
+  "version": "1.0.0",
+  "description": "small docker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenneth-atiapa/nodedocker.git"
+  },
+  "author": "ansah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenneth-atiapa/nodedocker/issues"
+  },
+  "homepage": "https://github.com/kenneth-atiapa/nodedocker#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^5.0.1",
+    "supertest": "^3.0.0"
+  }
+}
